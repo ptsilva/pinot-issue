@@ -1,0 +1,25 @@
+{
+    "schemaName": "schema_a",
+    "dimensionFieldSpecs": [
+        {
+            "name": "column_a",
+            "dataType": "STRING",
+            "defaultNullValue": "null"
+        }
+    ],
+    "metricFieldSpecs": [
+        {
+            "name": "column_b",
+            "dataType": "DOUBLE",
+            "defaultNullValue": 0
+        }
+    ],
+    "dateTimeFieldSpecs": [
+        {
+            "name": "column_c",
+            "dataType": "LONG",
+            "format" : "1:DAYS:SIMPLE_DATE_FORMAT:yyyy-MM-dd HH:mm:ss",
+            "granularity": "1:DAYS"
+        }
+    ]
+}

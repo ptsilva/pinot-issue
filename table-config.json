@@ -1,0 +1,19 @@
+{
+    "tableName": "table_a",
+    "segmentsConfig": {
+        "replication": "1",
+        "schemaName": "table_a",
+        "segmentAssignmentStrategy": "BalanceNumSegmentAssignmentStrategy"
+    },
+    "tenants": {
+        "broker": "MainCluster",
+        "server": "MainCluster"
+    },
+    "tableIndexConfig": {
+        "invertedIndexColumns": [],
+        "loadMode": "HEAP",
+        "lazyLoad": "false"
+    },
+    "tableType": "OFFLINE",
+    "metadata": {}
+}
