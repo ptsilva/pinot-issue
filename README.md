@@ -11,9 +11,7 @@ docker run -v $(pwd):/data winedepot/pinot:kafka2 CreateSegment \
 -tableName table_a \
 -segmentName table_name \
 -overwrite \
--schemaFile \
-/data/schema.json \
--readerConfigFile \
-/data/record-reader.json
+-schemaFile /data/schema.json \
+-readerConfigFile /data/record-reader.json
 ```
 
